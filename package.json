@@ -1,0 +1,24 @@
+{
+  "name": "reset-default-style",
+  "version": "1.0.0",
+  "description": "A minimal CSS reset that removes default styles from HTML elements.",
+  "main": "main-reset.css",
+  "author": "Mahdi Hazrati",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahdi-Hazrati/reset.style.git"
+  },
+  "keywords": [
+    "reset-style",
+    "reset.css",
+    "reset.style"
+  ],
+  "bugs": {
+    "url": "https://github.com/Mahdi-Hazrati/reset.style/issues"
+  },
+  "homepage": "https://github.com/Mahdi-Hazrati/reset.style#readme"
+}
