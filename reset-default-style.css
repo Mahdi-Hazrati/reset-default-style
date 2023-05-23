@@ -4,10 +4,6 @@
  * Author: MahdiHazratiMailBox@gmail.com
  */
 
-/* rest of the code... */
-/* see more : https://github.com/Mahdi-Hazrati/reset-default-style */
-
-
 /* Box sizing rules */
 *,
 *::before,
@@ -25,26 +21,23 @@ p,
 figure,
 blockquote,
 dl,
-dd {
+dd,
+ul,
+ol {
   margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles (bullets/numbers) */
 ul,
 ol {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 /* Set default font size and line height */
 body {
   font-size: 16px;
   line-height: 1.5;
-}
-
-/* Set default font family */
-body {
   font-family: Arial, sans-serif;
 }
 
@@ -53,56 +46,18 @@ body {
   outline: none;
 }
 
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
+/* Document */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-  margin: 0;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-
+/* Sections */
 main {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/* Grouping content
-   ========================================================================== */
-
-/**
- * Remove the spacing and border for `audio`, `canvas`, `iframe`, `img`,
- * `object`, `video` elements in all browsers.
- */
-
+/* Grouping content */
 audio,
 canvas,
 iframe,
@@ -113,54 +68,28 @@ video {
   border-style: none;
 }
 
-/**
- * Remove the margin and padding from `figure` elements in all browsers.
- */
-
-figure {
-  margin: 0;
-}
-
-/**
- * Remove the margin and padding from `fieldset` elements in all browsers.
- */
-
+figure,
 fieldset {
   margin: 0;
   padding: 0;
 }
 
-/* Forms
-   ========================================================================== */
-
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-
+/* Forms */
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
 }
-
-/**
- * Remove the inheritance of text transform in Edge and Firefox.
- */
 
 button,
 select {
   text-transform: none;
 }
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
 
 button,
 [type="button"],
@@ -169,31 +98,16 @@ button,
   -webkit-appearance: button;
 }
 
-/**
- * Remove the inner border and padding of focus outlines in Firefox.
- */
-
 :focus:not(:focus-visible) {
   outline: none;
 }
 
-/**
- * 1. Remove the default vertical scrollbar in IE.
- * 2. Change the resize direction on textareas in all browsers (opinionated).
- */
-
 textarea {
-  overflow: auto; /* 1 */
-  resize: vertical; /* 2 */
+  overflow: auto;
+  resize: vertical;
 }
 
-/* Tables
-   ========================================================================== */
-
-/**
- * Remove the spacing between table cells in all browsers.
- */
-
+/* Tables */
 table {
   border-collapse: collapse;
 }
@@ -202,22 +116,11 @@ th {
   text-align: inherit;
 }
 
-/* Links
-   ========================================================================== */
-
+/* Links */
 a {
   color: inherit;
   text-decoration: none;
 }
-
-/**
- * If you're using this stylesheet solely to support `@import` in IE8, you may skip
- * these rules entirely. They are optional.
- */
-
-/**
- * Remove the extra bottom margin in all browsers.
- */
 
 @media (min-width: 0px) {
   html {
@@ -248,8 +151,3 @@ a {
     font-size: 20px;
   }
 }
-
-
-
-
-
