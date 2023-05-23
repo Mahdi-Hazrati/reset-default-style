@@ -7,7 +7,7 @@
 `reset-default-style` is a minimal CSS reset package that removes default styles from HTML elements. It's perfect for developers who want to start with a clean slate and avoid any unexpected styling issues.
 
 ## Why use reset-default-style?
-By default, every HTML element comes with some pre-defined styles. This can often lead to inconsistent results across different browsers and devices.` reset-default-style` solves this problem by removing all default styles and providing a consistent baseline for your styling needs.
+By default, every HTML element comes with some pre-defined styles. This can often lead to inconsistent results across different browsers and devices. `reset-default-style` solves this problem by removing all default styles and providing a consistent baseline for your styling needs.
 
 Here are some of the benefits of using `reset-default-style`:
 
@@ -15,7 +15,7 @@ Here are some of the benefits of using `reset-default-style`:
 
 - **Easy customization** : Since all default styles have been removed, you're free to add your own styles without worrying about conflicts or overrides.
 
-- ** Improved accessibility** : reset-default-style includes accessibility-friendly defaults like removing outlines on focused elements and setting default font sizes and line heights.
+- **Improved accessibility** : reset-default-style includes accessibility-friendly defaults like removing outlines on focused elements and setting default font sizes and line heights.
 
 ### Getting started
 To use `reset-default-style`, simply include the CSS file in your project:
