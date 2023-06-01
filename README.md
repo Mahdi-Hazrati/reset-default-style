@@ -21,7 +21,7 @@ Here are some of the benefits of using `reset-default-style`:
 To use `reset-default-style`, simply include the CSS file in your project:
 
 ```html
-<link rel="stylesheet" href="path/to/reset-default-style.css">
+<link rel="stylesheet" href="https://www.unpkg.com/reset-default-style@1.0.4/reset-default-style.css">
 ```
 Alternatively, you can install it via npm:
 
